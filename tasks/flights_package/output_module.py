@@ -4,7 +4,7 @@ def output_flights(flights):
         return
 
     print("\nНайденные рейсы:")
-    print(f"{'Номер рейса':<15} {'Тип самолёта'}")
+    print(f"{'Номер рейса':} {'Тип самолёта'}")
     print("-" * 30)
     for flight in flights:
-        print(f"{flight['number']:<15} {flight['plane']}")
+        print(f"{flight['number']:} {flight['plane']}")
