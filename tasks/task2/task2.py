@@ -7,7 +7,7 @@ from flights_package import *
 def main():
     flights = input_flights()
     flights = sort_flights(flights)
-    print("\nВсе рейсы (отсортированы по номеру):")
+    print("\nВсе рейсы (отсортированы по номеру): ")
     output_flights(flights)
 
     place = input("\nВведите пункт назначения: ")
